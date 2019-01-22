@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	background: black;
+
+}
+nav{
+	background: black;
+	height: 70px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+*,::before,::after{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1318px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+form{
+	width: 800px;
+	display: block;
+	position: relative;
+	left: 300px;
+	color: white;
+	margin-bottom: 40px;
+}
+.image {
+	width: 500px;
+	position: relative;
+	left: 550px;
+	margin-bottom: 40px;
+	transition: width 1s;
+}
+.image:hover{
+	width: 600px;
+}
+.nav-link{
+	width: 150px;
+	color: white;
+	padding: 10px;
+	margin-right: 30px;
+}
+p{
+	font-size: 18px;
+}
+.btn{
+	width:300px;
+	background-color: rgba(0,0,0,.9);
+;
+	border: 1px solid white;
+	display: block;
+	position: relative;
+	left: 240px;
+}
+.btn:hover{
+	background: white;
+	color: rgba(0,0,0,.9);
+
+}
+.portfolio{
+	margin-top: 30px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+h2{
+	color: white;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.text{
+	border-bottom: 1px solid white;
+	text-align: left;
+	font-size: 17px;
+	margin-bottom: 60px;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+a{
+	color: white;
+}
